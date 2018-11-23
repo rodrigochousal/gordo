@@ -17,6 +17,7 @@
 		C2EED14021A8860E00811425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EED13E21A8860E00811425 /* LaunchScreen.storyboard */; };
 		C2EED14B21A8860E00811425 /* GordoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EED14A21A8860E00811425 /* GordoTests.swift */; };
 		C2EED15621A8860E00811425 /* GordoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EED15521A8860E00811425 /* GordoUITests.swift */; };
+		C2EED16421A8895A00811425 /* GordoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EED16321A8895A00811425 /* GordoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C2EED15121A8860E00811425 /* GordoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GordoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EED15521A8860E00811425 /* GordoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GordoUITests.swift; sourceTree = "<group>"; };
 		C2EED15721A8860E00811425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2EED16321A8895A00811425 /* GordoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GordoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				C2EED12F21A8860D00811425 /* AppDelegate.swift */,
+				C2EED16321A8895A00811425 /* GordoModel.swift */,
 				C2EED13121A8860D00811425 /* GameScene.sks */,
 				C2EED13321A8860D00811425 /* Actions.sks */,
 				C2EED13521A8860D00811425 /* GameScene.swift */,
@@ -270,6 +273,7 @@
 				C2EED13621A8860D00811425 /* GameScene.swift in Sources */,
 				C2EED13821A8860D00811425 /* GameViewController.swift in Sources */,
 				C2EED13021A8860D00811425 /* AppDelegate.swift in Sources */,
+				C2EED16421A8895A00811425 /* GordoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
